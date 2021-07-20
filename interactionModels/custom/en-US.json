@@ -1,0 +1,173 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "food safety info assistant",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "FoodInfoIntent",
+          "slots": [
+            {
+              "name": "question",
+              "type": "QUESTION"
+            }
+          ],
+          "samples": [
+            "{question}",
+            "what info do you offer"
+          ]
+        },
+        {
+          "name": "FoodRequestIntent",
+          "slots": [
+            {
+              "name": "question",
+              "type": "QUESTION"
+            }
+          ],
+          "samples": [
+            "is {question}",
+            "are {question}",
+            "what foods contain {question}",
+            "what are {question}",
+            "what foods are {question}",
+            "what is a {question}",
+            "what is {question}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "eating before bed bad for you"
+              }
+            },
+            {
+              "name": {
+                "value": "what are my options"
+              }
+            },
+            {
+              "name": {
+                "value": "what kind of food info do you offer"
+              }
+            },
+            {
+              "name": {
+                "value": "gluten bad for you"
+              }
+            },
+            {
+              "name": {
+                "value": "eating food before bed bad for you"
+              }
+            },
+            {
+              "name": {
+                "value": "organic foods more nutritious"
+              }
+            },
+            {
+              "name": {
+                "value": "iron deficiency"
+              }
+            },
+            {
+              "name": {
+                "value": "iodine deficiency"
+              }
+            },
+            {
+              "name": {
+                "value": "vitamin d deficiency"
+              }
+            },
+            {
+              "name": {
+                "value": "vitamin b twelve deficiency"
+              }
+            },
+            {
+              "name": {
+                "value": "omega three deficiency"
+              }
+            },
+            {
+              "name": {
+                "value": "magnesium deficiency"
+              }
+            },
+            {
+              "name": {
+                "value": "vitamin a deficiency"
+              }
+            },
+            {
+              "name": {
+                "value": "cacao"
+              }
+            },
+            {
+              "name": {
+                "value": "canned tuna"
+              }
+            },
+            {
+              "name": {
+                "value": "balanced meal"
+              }
+            },
+            {
+              "name": {
+                "value": "supplments"
+              }
+            },
+            {
+              "name": {
+                "value": "common deficiencies"
+              }
+            },
+            {
+              "name": {
+                "value": "monosodium glutamate"
+              }
+            },
+            {
+              "name": {
+                "value": "dangerous"
+              }
+            },
+            {
+              "name": {
+                "value": "heavy metals"
+              }
+            }
+          ],
+          "name": "QUESTION"
+        }
+      ]
+    }
+  },
+  "version": "21"
+}
